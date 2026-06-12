@@ -1,0 +1,12 @@
+---
+import type { HeroProps } from '../lib/blocks';
+
+// Static route -> single type "about".
+export interface CmsContent {
+  hero: HeroProps;
+  /** @cms richtext */
+  body: string;
+}
+---
+
+<main></main>
