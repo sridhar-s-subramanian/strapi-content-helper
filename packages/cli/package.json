@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "CLI to generate and sync Strapi v5 content models from Next.js / Astro code",
   "license": "MIT",
+  "author": "Sivasubramanian Rajamanickam",
   "type": "module",
   "bin": {
     "strapi-content-helper": "./dist/bin.js"

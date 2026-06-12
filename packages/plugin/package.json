@@ -4,6 +4,7 @@
   "description": "Strapi v5 plugin wrapping the content-helper engine (dev-mode sync + admin preview)",
   "keywords": ["strapi", "strapi-plugin", "content-type", "codegen", "nextjs", "astro"],
   "license": "MIT",
+  "author": "Sivasubramanian Rajamanickam",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

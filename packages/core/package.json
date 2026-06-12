@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Framework-agnostic engine: parse frontend code into an IR and emit Strapi v5 schemas",
   "license": "MIT",
+  "author": "Sivasubramanian Rajamanickam",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
