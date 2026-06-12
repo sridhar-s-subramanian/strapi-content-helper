@@ -5,7 +5,7 @@ export default defineConfig({
   resolve: {
     alias: {
       // Run cross-package tests against core source, not its built dist.
-      '@strapi-content-helper/core': fileURLToPath(
+      '@swamp-crocodile/content-helper-core': fileURLToPath(
         new URL('./packages/core/src/index.ts', import.meta.url),
       ),
     },

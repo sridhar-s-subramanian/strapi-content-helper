@@ -7,7 +7,7 @@ import { existsSync } from 'node:fs';
 import { readFile } from 'node:fs/promises';
 import { dirname, isAbsolute, join, resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
-import type { SyncConfig } from '@strapi-content-helper/core';
+import type { SyncConfig } from '@swamp-crocodile/content-helper-core';
 
 export interface FileConfig {
   framework?: 'next' | 'astro';

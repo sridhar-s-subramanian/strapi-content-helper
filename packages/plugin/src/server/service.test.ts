@@ -19,7 +19,7 @@ function fakeStrapi(env: string, pluginConfig: PluginConfig): StrapiInstance {
     config: {
       environment: env,
       get: <T>(path: string, def?: T): T =>
-        path === 'plugin::strapi-content-helper' ? (pluginConfig as unknown as T) : (def as T),
+        path === 'plugin::content-helper' ? (pluginConfig as unknown as T) : (def as T),
     },
     plugin: () => ({ service: () => ({}) as never, config: () => undefined as never }),
   };

@@ -1,7 +1,8 @@
 {
-  "name": "@strapi-content-helper/plugin",
+  "name": "strapi-plugin-content-helper",
   "version": "0.1.0",
   "description": "Strapi v5 plugin wrapping the content-helper engine (dev-mode sync + admin preview)",
+  "keywords": ["strapi", "strapi-plugin", "content-type", "codegen", "nextjs", "astro"],
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.js",
@@ -22,7 +23,7 @@
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "dependencies": {
-    "@strapi-content-helper/core": "workspace:*"
+    "@swamp-crocodile/content-helper-core": "workspace:*"
   },
   "peerDependencies": {
     "@strapi/strapi": "^5.0.0",
@@ -36,7 +37,7 @@
   },
   "strapi": {
     "kind": "plugin",
-    "name": "strapi-content-helper",
+    "name": "content-helper",
     "displayName": "Content Helper",
     "description": "Generate Strapi content models from Next.js / Astro code"
   }

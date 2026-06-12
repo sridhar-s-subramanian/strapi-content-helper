@@ -15,7 +15,7 @@
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "dependencies": {
-    "@strapi-content-helper/core": "workspace:*",
+    "@swamp-crocodile/content-helper-core": "workspace:*",
     "commander": "^12.1.0"
   }
 }

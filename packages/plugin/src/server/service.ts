@@ -10,7 +10,7 @@ import {
   renderDiff,
   type ChangeSet,
   type SyncConfig,
-} from '@strapi-content-helper/core';
+} from '@swamp-crocodile/content-helper-core';
 import { assertDevelopment, isDevelopment } from './guard.js';
 import type { StrapiInstance } from './strapi-types.js';
 
@@ -45,7 +45,7 @@ function abs(base: string, p: string): string {
 }
 
 function resolveSyncConfig(strapi: StrapiInstance): SyncConfig {
-  const cfg = strapi.config.get<PluginConfig>('plugin::strapi-content-helper', {});
+  const cfg = strapi.config.get<PluginConfig>('plugin::content-helper', {});
   const strapiRoot = strapi.dirs.app.root;
   const frontendRoot = cfg.frontendRoot ? abs(strapiRoot, cfg.frontendRoot) : strapiRoot;
 

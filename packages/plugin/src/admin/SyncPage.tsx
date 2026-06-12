@@ -18,7 +18,7 @@ interface PreviewResult {
   written?: string[];
 }
 
-const BASE = '/strapi-content-helper';
+const BASE = '/content-helper';
 
 export default function SyncPage(): JSX.Element {
   const { get, post } = useFetchClient();

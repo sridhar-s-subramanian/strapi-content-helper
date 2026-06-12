@@ -17,7 +17,7 @@ interface PluginService {
 }
 
 function service(strapi: StrapiInstance): PluginService {
-  return strapi.plugin('strapi-content-helper').service<PluginService>('sync');
+  return strapi.plugin('content-helper').service<PluginService>('sync');
 }
 
 export default ({ strapi }: { strapi: StrapiInstance }) => ({

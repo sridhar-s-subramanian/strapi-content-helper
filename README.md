@@ -130,7 +130,7 @@ State is tracked in `<strapiRoot>/.content-helper/lock.json` (the merge base). C
 
 ## Strapi admin plugin (dev only)
 
-The `@strapi-content-helper/plugin` package exposes a **"Sync content model"** action in the
+The `strapi-plugin-content-helper` package exposes a **"Sync content model"** action in the
 admin settings that previews the diff and applies it. It is **guarded to development mode** —
 production Strapi typically runs from a read-only image and cannot rewrite its own `src/`. In
 production, run the CLI in CI, commit the schema files, and deploy.
@@ -139,9 +139,9 @@ production, run the CLI in CI, commit the schema files, and deploy.
 
 | Package | Purpose |
 |---|---|
-| `@strapi-content-helper/core` | Framework-agnostic engine: parse → IR → emit → 3-way merge |
+| `@swamp-crocodile/content-helper-core` | Framework-agnostic engine: parse → IR → emit → 3-way merge |
 | `strapi-content-helper` (CLI) | `generate` / `check` / `init` |
-| `@strapi-content-helper/plugin` | Strapi v5 plugin (dev-mode sync + admin preview) |
+| `strapi-plugin-content-helper` | Strapi v5 plugin (dev-mode sync + admin preview) |
 
 ## Development
 

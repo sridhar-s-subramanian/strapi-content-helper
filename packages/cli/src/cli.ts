@@ -4,7 +4,7 @@
  */
 import { existsSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { applyPlan, hasChanges, planSync, renderDiff, VERSION } from '@strapi-content-helper/core';
+import { applyPlan, hasChanges, planSync, renderDiff, VERSION } from '@swamp-crocodile/content-helper-core';
 import { Command } from 'commander';
 import { loadConfig } from './config.js';
 
