@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_sections_ctas",
+  "info": {
+    "displayName": "Call To Action"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
