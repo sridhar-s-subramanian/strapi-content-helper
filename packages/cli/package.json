@@ -2,8 +2,18 @@
   "name": "strapi-content-helper",
   "version": "0.1.0",
   "description": "CLI to generate and sync Strapi v5 content models from Next.js / Astro code",
+  "keywords": ["strapi", "cli", "content-type", "codegen", "nextjs", "astro"],
   "license": "MIT",
   "author": "Sivasubramanian Rajamanickam",
+  "homepage": "https://github.com/sridhar-s-subramanian/strapi-plugin-content-helper/tree/main/packages/cli#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sridhar-s-subramanian/strapi-plugin-content-helper.git",
+    "directory": "packages/cli"
+  },
+  "bugs": {
+    "url": "https://github.com/sridhar-s-subramanian/strapi-plugin-content-helper/issues"
+  },
   "type": "module",
   "bin": {
     "strapi-content-helper": "./dist/bin.js"

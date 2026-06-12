@@ -2,8 +2,18 @@
   "name": "@swamp-crocodile/content-helper-core",
   "version": "0.1.0",
   "description": "Framework-agnostic engine: parse frontend code into an IR and emit Strapi v5 schemas",
+  "keywords": ["strapi", "content-type", "codegen", "schema", "nextjs", "astro", "ts-morph"],
   "license": "MIT",
   "author": "Sivasubramanian Rajamanickam",
+  "homepage": "https://github.com/sridhar-s-subramanian/strapi-plugin-content-helper/tree/main/packages/core#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sridhar-s-subramanian/strapi-plugin-content-helper.git",
+    "directory": "packages/core"
+  },
+  "bugs": {
+    "url": "https://github.com/sridhar-s-subramanian/strapi-plugin-content-helper/issues"
+  },
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

@@ -5,6 +5,15 @@
   "keywords": ["strapi", "strapi-plugin", "content-type", "codegen", "nextjs", "astro"],
   "license": "MIT",
   "author": "Sivasubramanian Rajamanickam",
+  "homepage": "https://github.com/sridhar-s-subramanian/strapi-plugin-content-helper/tree/main/packages/plugin#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sridhar-s-subramanian/strapi-plugin-content-helper.git",
+    "directory": "packages/plugin"
+  },
+  "bugs": {
+    "url": "https://github.com/sridhar-s-subramanian/strapi-plugin-content-helper/issues"
+  },
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
