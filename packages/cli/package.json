@@ -1,0 +1,21 @@
+{
+  "name": "strapi-content-helper",
+  "version": "0.1.0",
+  "description": "CLI to generate and sync Strapi v5 content models from Next.js / Astro code",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "strapi-content-helper": "./dist/bin.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@strapi-content-helper/core": "workspace:*",
+    "commander": "^12.1.0"
+  }
+}
