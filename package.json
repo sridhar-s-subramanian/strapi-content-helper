@@ -1,0 +1,26 @@
+{
+  "name": "strapi-content-helper-workspace",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Generate and sync Strapi v5 content models from Next.js / Astro frontend code",
+  "license": "MIT",
+  "packageManager": "pnpm@10.26.2",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -b tsconfig.build.json",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc -b tsconfig.build.json",
+    "clean": "tsc -b tsconfig.build.json --clean && pnpm -r exec rm -rf dist"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild"]
+  }
+}
