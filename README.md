@@ -9,7 +9,7 @@ writes the matching Strapi `schema.json` files, so nobody has to recreate the mo
 the Content-Type Builder, and the two never drift.
 
 > Status: core engine, CLI, and Next.js + Astro support are implemented and tested.
-> The Strapi admin plugin is included for dev-mode use. See [PRD.md](./PRD.md) for the task map.
+> The Strapi admin plugin is included for dev-mode use.
 
 ---
 
