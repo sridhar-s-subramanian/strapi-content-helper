@@ -6,3 +6,7 @@ dist/
 coverage/
 .content-helper/
 !fixtures/**/.content-helper/
+
+# Local planning docs (not tracked)
+PRD.md
+PLAN.md
